@@ -162,7 +162,7 @@
 
         <!-- institute section -->
         <section class="container mt-5">
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 d-flex">
+            <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 d-flex">
                 <div>
                     <img src="images/working.png" alt="">
                 </div>
@@ -188,6 +188,99 @@
                     <button type="button" class="btn btn-primary w-25 mt-2">Read More</button>
                 </div>
             </div>
+        </section>
+        
+        <!-- modal section -->
+        <section class="container mt-5">
+            <div class="bg-primary d-flex align-items-center justify-content-between p-5">
+                <div>
+                    <h2 class="text-white">Ready to join</h2>
+                    <p class="text-white">click on the register button to join with us</p>
+                </div>
+                <div>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Register Now
+                    </button>
+  
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Registration Form</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body d-flex flex-column align-items-center">
+                                    <form>
+                                        <div class="mb-3">
+                                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="write your email">
+                                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                        </div>
+                                        <div class="mb-3">
+                                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="write your password">
+                                        </div>
+                                      </form>
+                                 </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Register</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- students section -->
+        <section class="container mt-5">
+            <div class="mt-4 mb-3">
+                <h2>Meet Our successful Students</h2>
+                <p>They are our successful students, who learned from us and doing very well now</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="images/student/student-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Prince Rasel</h5>
+                      <p class="card-text">Graphics Designer</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="images/student/student-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Tasmin Nahar Mim</h5>
+                      <p class="card-text">Full stack developer</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="images/student/student-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Pavel Khan</h5>
+                      <p class="card-text">Font End Developer</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="images/student/student-4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Anjhum Hossain Bristy</h5>
+                      <p class="card-text">Photo Shop Expert</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex flex-column align-items-center mt-5">
+                <button type="button" class="btn btn-primary">View All</button>
+              </div>
         </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
